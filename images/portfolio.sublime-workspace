@@ -1,0 +1,500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"head",
+				"headline"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"width",
+				"max-width"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"h",
+				"hover"
+			],
+			[
+				"topm",
+				"topicmenu"
+			],
+			[
+				"top",
+				"topicmenu"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"b",
+				"text-bottom"
+			],
+			[
+				"wha",
+				"whalevideo"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"d",
+				"Droid"
+			],
+			[
+				"w",
+				"white"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1525,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 2794,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "portfolio.html",
+			"settings":
+			{
+				"buffer_size": 2406,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"set",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"",
+				"Color Picker"
+			],
+			[
+				"synta cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"TITLE",
+				"Convert Case: Title Case"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"comm	",
+				"Toggle Comment"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/brianzirbes/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/brianzirbes/Downloads/vbulletin-style.xml",
+		"/Users/brianzirbes/Documents/Sites/Udemy Sites/Ch 1. HTML/Helloworld.html",
+		"/Users/brianzirbes/Library/Application Support/Sublime Text 2/Packages/User/project1.html",
+		"/Users/brianzirbes/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/brianzirbes/Documents/Sites/JTR/wordpress 4/wp-content/themes/atomic/archive.php",
+		"/Users/brianzirbes/Documents/Sites/phplessons/wp-content/themes/phplessons/page.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Web",
+			"\">\n",
+			"18",
+			"bold",
+			"grey",
+			"10px",
+			"text",
+			"link",
+			"head",
+			".neon",
+			"neon",
+			"smokey"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1177,
+								1177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 2794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 445.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "portfolio.html",
+					"settings":
+					{
+						"buffer_size": 2406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1707,
+								1707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true
+}
