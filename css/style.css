@@ -250,6 +250,9 @@ hr {
   border-top: 1px solid black;
   opacity: 0.2;
 }
+.resume-ul li h4 {
+  display:none;
+}
 
 @media only screen and (min-width : 400px) {
   h1 {
@@ -590,6 +593,9 @@ div.title h2 {
 .mainbody {
   height: 88%;
 }
+.resume-ul li h4 {
+  display: inline;
+}
 .panel {
   height: 100%;
   width: 100%;
@@ -652,5 +658,8 @@ footer {
   }
   .img-box-info .fa-times {
     display: none; 
+  }
+  .resume-ul li h4 {
+    display: inline;
   }
 }
