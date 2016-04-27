@@ -42,19 +42,19 @@ function unclickBox() {
 $(function(){   //document ready 
 
 
-  $("#about").click(function(){
-    $("#about-me").show();
-    $("div.social").hide();
-    $(".hero-unit").hide();
-    $(".title").html("");
-  });
-  $("#topbun-text").click(function(){ 
-    unClickBurger();
-    $(".hero-unit").css("background", "url('http://i.imgur.com/MXm1aG8.jpg')").css("background-size", "cover").css("background-repeat", "no-repeat").css("background-position", "center");
-    $(".mainbody").css("height", "58%")
-    $("#about-me").show();
-    $(".title").html("");
-  });
+  // $("#about").click(function(){
+  //   $("#about-me").show();
+  //   $("div.social").hide();
+  //   $(".hero-unit").hide();
+  //   $(".title").html("");
+  // });
+  // $("#topbun-text").click(function(){ 
+  //   unClickBurger();
+  //   $(".hero-unit").css("background", "url('http://i.imgur.com/MXm1aG8.jpg')").css("background-size", "cover").css("background-repeat", "no-repeat").css("background-position", "center");
+  //   $(".mainbody").css("height", "58%")
+  //   $("#about-me").show();
+  //   $(".title").html("");
+  // });
 
 
   $(".burgermonochrome").click(function(){  //if statement for clicking

@@ -172,329 +172,345 @@ div.link-text, div.burgermonochrome>.link-text>a {
   height: 100%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-#about-me {
-  display: none;
-}
-label {
-  font-weight: lighter;
-}
-footer {
-  margin: 50px 0;
-  text-align: center;
-  background-color: #F4F4F4;
-}
-.col-centered{
-  float: none;
-  margin: 0 auto;
-}
-.image-responsive .thumbnail {
-  margin-left: auto;
-  margin-right: auto;
-}
-#bs-example-navbar-collapse-1 {
-  clear: both;
-  background-color:transparent;
-} 
-.panel {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  background-color: #F4F4F4;
-}
-.navbar-toggle {
-  border: 0;
-  background: transparent;
-}
-.navbar-default .navbar-toggle:focus  {
-  background-color: transparent;
-  opacity: 0.9;
-}
-.navbar-default .navbar-toggle:hover {
-  background-color: transparent;
-  opacity: 0.9;
-}
-button img {
-  cursor: pointer;
-  opacity: 0.5;
-  margin: -2.5rem;
-  margin-top: -1.1rem;
-  height: 5rem;
-  width: 5rem;
-}
-button.secondary {
-  margin: 1em auto;
-}
-button.secondary:hover {
-  color: #242424;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  -webkit-transition: box-shadow 0.4s ease;
-  transition: box-shadow 0.4s ease;
-}
-div#success_message {
-  margin-top: 5rem;
-}
-.mainbody {
-  padding-top: 85px;
-  height: 90%;
-}
-.resume-section {
-  border-bottom: 1px solid hsla(0,0%,0%, 0.7); 
-  margin: 1em 0;
-}
-a, a:visited {
-  text-decoration: none;
-  color: #000000;
-  opacity: 0.85;
-}
-hr {
-  border-top: 1px solid black;
-  opacity: 0.2;
-}
-.resume-ul li h4 {
+.hero-unit-about {
   display:none;
 }
 
-@media only screen and (min-width : 400px) {
-  h1 {
-    font-size: 5rem;
-    opacity: 0.5;
-    font-family: "Helvetica Neue", sans-serif;
-    float: left;
-    color: #DB0000;
-    text-transform: uppercase;
-    letter-spacing: -1px;
+/*#about-me {
+  display: none;
+  }*/
+  label {
     font-weight: lighter;
-    margin: 0;
-    line-height: 84.3px;
-    opacity: 0.85;
   }
-  div.title h2 {
-    color: #000;
-    font-size: 4.7rem;
-    letter-spacing: -1px;
-    margin-bottom: 2rem;
-    font-family: "Helvetica Neue", sans-serif;
-    text-transform: uppercase;
-    line-height: 33.3px;
-    font-weight: lighter;
-    opacity: 0.85;
+  footer {
+    margin: 50px 0;
+    text-align: center;
+    background-color: #F4F4F4;
+  }
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+  }
+  .image-responsive .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #bs-example-navbar-collapse-1 {
+    clear: both;
+    background-color:transparent;
+  } 
+  .panel {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #F4F4F4;
+  }
+  .navbar-toggle {
+    border: 0;
+    background: transparent;
+  }
+  .navbar-default .navbar-toggle:focus  {
+    background-color: transparent;
+    opacity: 0.9;
+  }
+  .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    opacity: 0.9;
   }
   button img {
+    cursor: pointer;
     opacity: 0.5;
     margin: -2.5rem;
     margin-top: -1.1rem;
-    margin-right: -2rem;
-    height: 6rem;
-    width: 6rem;
-    cursor: pointer;
+    height: 5rem;
+    width: 5rem;
+  }
+  button.secondary {
+    margin: 1em auto;
+  }
+  button.secondary:hover {
+    color: #242424;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -webkit-transition: box-shadow 0.4s ease;
+    transition: box-shadow 0.4s ease;
+  }
+  div#success_message {
+    margin-top: 5rem;
   }
   .mainbody {
     padding-top: 85px;
     height: 90%;
   }
-  div.social {
-    display:none;
-  }
-  .nav>li>a.social {
-    display:inline; 
-    padding: 0 1em;
-  }
-}
-
-@media only screen and (min-width : 768px) {
-
-  .collapse, .navbar-collapse, ul.navbar-nav>li {
-    display: none;
-  }
-  /* **-***--* Hamburger Menu Styles ****--**** */
-  .burger-outer {
-    display: inline-block;
-    position: relative;
-  }
-  .link-text {
-    display: none;
-    color: #000000;
-    text-align: center;
-    opacity: 0.85;
-    /*font-family: "open sans", sans-serif;*/
+  .resume-section {
+    border-bottom: 1px solid hsla(0,0%,0%, 0.7); 
+    margin: 1em 0;
   }
   a, a:visited {
     text-decoration: none;
     color: #000000;
     opacity: 0.85;
   }
-  .link-text:hover, .link-text.textmonochrome:hover, a:hover {
-    color:  #DB0000;
-    text-decoration: none;
+  hr {
+    border-top: 1px solid black;
+    opacity: 0.2;
   }
-  #topbun {
-    position: fixed;
-    height: 21px;
-    width: 75px;
-    top: 6.5px; 
-    background:  hsl(0, 0%, 47%);
-    border-top-left-radius:100px;
-    border-top-right-radius:100px;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px;
-    color: #fff;
-    cursor: pointer;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-    opacity: 0.65;
+  .resume-ul li h4 {
+    display:none;
   }
-  #topbun-text {
-    /*display:none;*/
-    position: fixed;
-    margin: 0 14px;
-    top: 33.5px; 
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    opacity: 0.85;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
+
+  @media only screen and (min-width : 400px) {
+    h1 {
+      font-size: 5rem;
+      opacity: 0.5;
+      font-family: "Helvetica Neue", sans-serif;
+      float: left;
+      color: #DB0000;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+      font-weight: lighter;
+      margin: 0;
+      line-height: 84.3px;
+      opacity: 0.85;
+    }
+    div.title h2 {
+      color: #000;
+      font-size: 4.7rem;
+      letter-spacing: -1px;
+      margin-bottom: 2rem;
+      font-family: "Helvetica Neue", sans-serif;
+      text-transform: uppercase;
+      line-height: 33.3px;
+      font-weight: lighter;
+      opacity: 0.85;
+    }
+    button img {
+      opacity: 0.5;
+      margin: -2.5rem;
+      margin-top: -1.1rem;
+      margin-right: -2rem;
+      height: 6rem;
+      width: 6rem;
+      cursor: pointer;
+    }
+    .mainbody {
+      padding-top: 85px;
+      height: 90%;
+    }
+    div.social {
+      display:none;
+    }
+    .nav>li>a.social {
+      display:inline; 
+      padding: 0 1em;
+    }
+    .hero-unit-about {
+      display: block;
+      background: url("http://i.imgur.com/MXm1aG8.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /*background-attachment: fixed;*/
+      margin-bottom: 0.25rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      width: 100%;
+      height: 50%;
+    }
   }
-  #cheese {
-    position: fixed;
-    height: 2px;
-    width: 75px;
-    top: 29.5px;
-    background:  hsl(0, 0%, 47%);
-    color: #fff;
-    cursor: pointer;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-    opacity: 0.65;
+
+  @media only screen and (min-width : 768px) {
+
+    .collapse, .navbar-collapse, ul.navbar-nav>li {
+      display: none;
+    }
+    /* **-***--* Hamburger Menu Styles ****--**** */
+    .burger-outer {
+      display: inline-block;
+      position: relative;
+    }
+    .link-text {
+      display: none;
+      color: #000000;
+      text-align: center;
+      opacity: 0.85;
+      /*font-family: "open sans", sans-serif;*/
+    }
+    a, a:visited {
+      text-decoration: none;
+      color: #000000;
+      opacity: 0.85;
+    }
+    .link-text:hover, .link-text.textmonochrome:hover, a:hover {
+      color:  #DB0000;
+      text-decoration: none;
+    }
+    #topbun {
+      position: fixed;
+      height: 21px;
+      width: 75px;
+      top: 6.5px; 
+      background:  hsl(0, 0%, 47%);
+      border-top-left-radius:100px;
+      border-top-right-radius:100px;
+      border-bottom-left-radius:10px;
+      border-bottom-right-radius:10px;
+      color: #fff;
+      cursor: pointer;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+      opacity: 0.65;
+    }
+    #topbun-text {
+      /*display:none;*/
+      position: fixed;
+      margin: 0 14px;
+      top: 33.5px; 
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      opacity: 0.85;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+    }
+    #cheese {
+      position: fixed;
+      height: 2px;
+      width: 75px;
+      top: 29.5px;
+      background:  hsl(0, 0%, 47%);
+      color: #fff;
+      cursor: pointer;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+      opacity: 0.65;
+    }
+    #cheese-text {
+      /*display:none;*/
+      position: fixed;
+      top: 61.5px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      opacity: 0.85;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+    }
+    #meat {
+      position: fixed;
+      height: 10px;
+      width: 75px;
+      top: 33.75px;
+      border-radius: 40px;
+      background:  hsl(0, 0%, 47%);
+      cursor: pointer;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+      opacity: 0.65;
+    }
+    #meat-text {
+      /*display:none;*/
+      position: fixed;
+      margin: 0 10px;
+      top: 97.75px;
+      text-align: center;
+      cursor: pointer;
+      opacity: 0.85;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+    }
+    #cheese2 {
+      position: fixed;
+      height: 2px;
+      width: 75px;
+      top: 46px;
+      background:  hsl(0, 0%, 47%);
+      cursor: pointer;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+      opacity: 0.65;
+      margin-bottom: 0;
+    }
+    #cheese2-text {
+      /*display:none;*/
+      position: fixed;
+      margin: 0 6px;
+      top: 130px;
+      text-align: center;
+      cursor: pointer;
+      opacity: 0.85;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+      margin-bottom: 0;
+    }
+    #meat2 {
+      position: fixed;
+      height: 10px;
+      width: 75px;
+      top: 49.5px;
+      background:  hsl(0, 0%, 47%);
+      border-radius: 40px;
+      color: #fff;
+      cursor: pointer;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+      opacity: 0.65;
+    }
+    #meat2-text {
+      /*display:none;*/
+      position: fixed;
+      top: 166.5px;
+      color: #fff;
+      margin:0 auto;
+      cursor: pointer;
+      opacity: 0.85;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+    }
+    #bottombun {
+      position: fixed;
+      height: 12px;
+      width: 75px;
+      top: 62px;
+      background:  hsl(0, 0%, 47%);
+      border-bottom-left-radius:30px;
+      border-bottom-right-radius:30px;
+      border-top-left-radius:10px;
+      border-top-right-radius:10px;
+      color: #fff;
+      cursor: pointer;
+      -webkit-transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease;
+      opacity: 0.65;
+    }
+    .top-hover {
+     -webkit-transform: scale(1.1) !important;
+     transform: scale(1.1) !important;
+     opacity: 1 !important;
+     background: #D27B47 !important;
+   }
+   .cheese-hover {
+    -webkit-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    opacity: 1 !important;
+    background: #FEDE5E !important;
   }
-  #cheese-text {
-    /*display:none;*/
-    position: fixed;
-    top: 61.5px;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    opacity: 0.85;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
+  .meat-hover {
+    -webkit-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    opacity: 1 !important;
+    background: #FF4182 !important;
   }
-  #meat {
-    position: fixed;
-    height: 10px;
-    width: 75px;
-    top: 33.75px;
-    border-radius: 40px;
-    background:  hsl(0, 0%, 47%);
-    cursor: pointer;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-    opacity: 0.65;
-  }
-  #meat-text {
-    /*display:none;*/
-    position: fixed;
-    margin: 0 10px;
-    top: 97.75px;
-    text-align: center;
-    cursor: pointer;
-    opacity: 0.85;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-  }
-  #cheese2 {
-    position: fixed;
-    height: 2px;
-    width: 75px;
-    top: 46px;
-    background:  hsl(0, 0%, 47%);
-    cursor: pointer;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-    opacity: 0.65;
-    margin-bottom: 0;
-  }
-  #cheese2-text {
-    /*display:none;*/
-    position: fixed;
-    margin: 0 6px;
-    top: 130px;
-    text-align: center;
-    cursor: pointer;
-    opacity: 0.85;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-    margin-bottom: 0;
-  }
-  #meat2 {
-    position: fixed;
-    height: 10px;
-    width: 75px;
-    top: 49.5px;
-    background:  hsl(0, 0%, 47%);
-    border-radius: 40px;
-    color: #fff;
-    cursor: pointer;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-    opacity: 0.65;
-  }
-  #meat2-text {
-    /*display:none;*/
-    position: fixed;
-    top: 166.5px;
-    color: #fff;
-    margin:0 auto;
-    cursor: pointer;
-    opacity: 0.85;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-  }
-  #bottombun {
-    position: fixed;
-    height: 12px;
-    width: 75px;
-    top: 62px;
-    background:  hsl(0, 0%, 47%);
-    border-bottom-left-radius:30px;
-    border-bottom-right-radius:30px;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
-    color: #fff;
-    cursor: pointer;
-    -webkit-transition: background-color 0.4s ease;
-    transition: background-color 0.4s ease;
-    opacity: 0.65;
-  }
-  .top-hover {
+  .bottom-hover {
    -webkit-transform: scale(1.1) !important;
    transform: scale(1.1) !important;
    opacity: 1 !important;
-   background: #D27B47 !important;
+   background-color: #D27B47 !important;
  }
- .cheese-hover {
-  -webkit-transform: scale(1.1) !important;
-  transform: scale(1.1) !important;
-  opacity: 1 !important;
-  background: #FEDE5E !important;
-}
-.meat-hover {
-  -webkit-transform: scale(1.1) !important;
-  transform: scale(1.1) !important;
-  opacity: 1 !important;
-  background: #FF4182 !important;
-}
-.bottom-hover {
- -webkit-transform: scale(1.1) !important;
- transform: scale(1.1) !important;
- opacity: 1 !important;
- background-color: #D27B47 !important;
-}
-.top-clicked {
- -webkit-transform: scale(1.1) !important;
- transform: scale(1.1) !important;
- opacity: 1 !important;
-}
-.cheese-clicked {
+ .top-clicked {
+   -webkit-transform: scale(1.1) !important;
+   transform: scale(1.1) !important;
+   opacity: 1 !important;
+ }
+ .cheese-clicked {
   top: 56px !important;
   -webkit-transform: rotate(0deg) !important;
   transform: rotate(0deg) !important;
@@ -561,6 +577,18 @@ hr {
   width: 100%;
   height: 97%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.hero-unit-about {
+  display: block;
+  background: url("http://i.imgur.com/MXm1aG8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  margin-bottom: 0.25rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 100%;
+  height: 50%;
 }
 h1 {
   font-size: 6rem;
@@ -655,6 +683,18 @@ footer {
     width: 100%;
     height: 97%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .hero-unit-about {
+    display: block;
+    background: url("http://i.imgur.com/MXm1aG8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    margin-bottom: 0.25rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 100%;
+    height: 50%;
   }
   .img-box-info .fa-times {
     display: none; 
