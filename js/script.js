@@ -96,8 +96,12 @@ $(function(){   //document ready
     } else {
       unclickBox();
     };
-
   });
+
+  $(".insideLink").click(function(event) {
+    event.stopImmediatePropagation();
+  });
+
 
 }); //end document ready function
 

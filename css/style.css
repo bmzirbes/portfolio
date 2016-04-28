@@ -412,8 +412,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-bottom-right-radius:10px;
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
       opacity: 0.65;
     }
     #topbun-text {
@@ -425,8 +425,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
     }
     #cheese {
       position: fixed;
@@ -436,8 +436,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       background:  hsl(0, 0%, 47%);
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
       opacity: 0.65;
     }
     #cheese-text {
@@ -448,8 +448,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
     }
     #meat {
       position: fixed;
@@ -459,8 +459,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-radius: 40px;
       background:  hsl(0, 0%, 47%);
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
       opacity: 0.65;
     }
     #meat-text {
@@ -471,8 +471,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
     }
     #cheese2 {
       position: fixed;
@@ -481,8 +481,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       top: 46px;
       background:  hsl(0, 0%, 47%);
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
       opacity: 0.65;
       margin-bottom: 0;
     }
@@ -494,8 +494,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
       margin-bottom: 0;
     }
     #meat2 {
@@ -507,8 +507,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-radius: 40px;
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease-in-out;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
       opacity: 0.65;
     }
     #meat2-text {
@@ -519,8 +519,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       margin:0 auto;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
     }
     #bottombun {
       position: fixed;
@@ -534,8 +534,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-top-right-radius:10px;
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease-in-out;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
       opacity: 0.65;
     }
     .top-hover {
