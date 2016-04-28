@@ -41,22 +41,9 @@ function unclickBox() {
 
 $(function(){   //document ready 
 
-
-  // $("#about").click(function(){
-  //   $("#about-me").show();
-  //   $("div.social").hide();
-  //   $(".hero-unit").hide();
-  //   $(".title").html("");
-  // });
-  // $("#topbun-text").click(function(){ 
-  //   unClickBurger();
-  //   $(".hero-unit").css("background", "url('http://i.imgur.com/MXm1aG8.jpg')").css("background-size", "cover").css("background-repeat", "no-repeat").css("background-position", "center");
-  //   $(".mainbody").css("height", "58%")
-  //   $("#about-me").show();
-  //   $(".title").html("");
-  // });
-
-
+  $(".navbar-toggle").on("click", function () {
+            $(this).toggleClass("active");
+        });
   $(".burgermonochrome").click(function(){  //if statement for clicking
     if(clicked == false) {
       clickBurger();
@@ -111,15 +98,6 @@ $(function(){   //document ready
     };
 
   });
-
-  // $(".img-box").click(function() {
-  //   $(this).find('div.img-box-info').slideDown(300);
-  // }); 
-  
-  // $(".fa-times").click(function() {
-  //   $('div.img-box-info').slideUp(200);
-  // });
-  
 
 }); //end document ready function
 

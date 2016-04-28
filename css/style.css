@@ -166,6 +166,7 @@ div.link-text, div.burgermonochrome>.link-text>a {
   background-size:cover;
   background-color: #F4F4F4;
   background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   margin-bottom: 0.25rem;
   width: 100%;
@@ -208,6 +209,7 @@ div.link-text, div.burgermonochrome>.link-text>a {
   .navbar-toggle {
     border: 0;
     background: transparent;
+    margin-top: 1em;
   }
   .navbar-default .navbar-toggle:focus  {
     background-color: transparent;
@@ -216,6 +218,35 @@ div.link-text, div.burgermonochrome>.link-text>a {
   .navbar-default .navbar-toggle:hover {
     background-color: transparent;
     opacity: 0.9;
+  }
+  .navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 1px;
+  }
+
+  .navbar-toggle .icon-bar:nth-of-type(4) {
+    top: 2px;
+  }
+
+  .navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 400ms ease-in-out;
+  }
+  .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 3px;
+  }
+
+  .navbar-toggle.active .icon-bar:nth-of-type(2) {
+    top: 6px;
+    transform: rotate(45deg);
+  }
+
+  .navbar-toggle.active .icon-bar:nth-of-type(3) {
+    background-color: transparent;
+  }
+
+  .navbar-toggle.active .icon-bar:nth-of-type(4) {
+    top: -4px;
+    transform: rotate(-45deg);
   }
   button img {
     cursor: pointer;
@@ -257,7 +288,21 @@ div.link-text, div.burgermonochrome>.link-text>a {
   .resume-ul li h4 {
     display:none;
   }
+  @media only screen and (min-width : 352px) {
+    .hero-unit {
+      background: url("http://i.imgur.com/YSkNhKV.jpg");
+      background-size:cover;
+      background-color: #F4F4F4;
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-attachment: fixed;
+      margin-bottom: 0.25rem;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
 
+  }
   @media only screen and (min-width : 400px) {
     h1 {
       font-size: 5rem;
@@ -302,6 +347,18 @@ div.link-text, div.burgermonochrome>.link-text>a {
     .nav>li>a.social {
       display:inline; 
       padding: 0 1em;
+    }
+    .hero-unit {
+      background: url("http://i.imgur.com/YSkNhKV.jpg");
+      background-size:cover;
+      background-color: #F4F4F4;
+      background-repeat: no-repeat;
+      /*background-position: center;*/
+      background-attachment: fixed;
+      margin-bottom: 0.25rem;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
     .hero-unit-about {
       display: block;
@@ -355,8 +412,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-bottom-right-radius:10px;
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
       opacity: 0.65;
     }
     #topbun-text {
@@ -368,8 +425,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
     }
     #cheese {
       position: fixed;
@@ -379,8 +436,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       background:  hsl(0, 0%, 47%);
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
       opacity: 0.65;
     }
     #cheese-text {
@@ -391,8 +448,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
     }
     #meat {
       position: fixed;
@@ -402,8 +459,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-radius: 40px;
       background:  hsl(0, 0%, 47%);
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
       opacity: 0.65;
     }
     #meat-text {
@@ -414,8 +471,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
     }
     #cheese2 {
       position: fixed;
@@ -424,8 +481,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       top: 46px;
       background:  hsl(0, 0%, 47%);
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
       opacity: 0.65;
       margin-bottom: 0;
     }
@@ -437,8 +494,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
       margin-bottom: 0;
     }
     #meat2 {
@@ -450,8 +507,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-radius: 40px;
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      -webkit-transition: background-color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
       opacity: 0.65;
     }
     #meat2-text {
@@ -478,7 +535,7 @@ div.link-text, div.burgermonochrome>.link-text>a {
       color: #fff;
       cursor: pointer;
       -webkit-transition: background-color 0.4s ease;
-      transition: background-color 0.4s ease;
+      transition: background-color 0.4s ease-in-out;
       opacity: 0.65;
     }
     .top-hover {
@@ -491,7 +548,7 @@ div.link-text, div.burgermonochrome>.link-text>a {
     -webkit-transform: scale(1.1) !important;
     transform: scale(1.1) !important;
     opacity: 1 !important;
-    background: #FEDE5E !important;
+    background: #FED21D !important;
   }
   .meat-hover {
     -webkit-transform: scale(1.1) !important;
@@ -618,6 +675,9 @@ div.title h2 {
   margin: 2rem;
   opacity: 0.85;
 }
+#resume-title h2 {
+  font-size: 4rem;
+}
 .mainbody {
   height: 88%;
 }
@@ -671,6 +731,9 @@ footer {
     text-align: center;
     opacity: 0.85;
 
+  }
+  #resume-title h2 {
+    font-size: 4rem;
   }  
   .hero-unit {
     background: url("http://i.imgur.com/YSkNhKV.jpg");
