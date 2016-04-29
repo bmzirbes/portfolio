@@ -80,7 +80,6 @@ $(function(){   //document ready
     $("nav").removeClass("navbar-expand");
   });
 
-
   $(".img-box").hover(function() { //mouse on
     $(this).find('div.img-box-info').slideDown(300);
   }, 
@@ -98,6 +97,7 @@ $(function(){   //document ready
     };
   });
 
+// prevent .img-box click event from firing when you click the .insideLink
   $(".insideLink").click(function(event) {
     event.stopImmediatePropagation();
   });
