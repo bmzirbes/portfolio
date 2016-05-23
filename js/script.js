@@ -80,13 +80,14 @@ $(function(){   //document ready
     $("nav").removeClass("navbar-expand");
   });
 
-  $(".img-box").hover(function() { //mouse on
-    $(this).find('div.img-box-info').slideDown(300);
-  }, 
-  function() {  // mouse off 
-    $(this).find('div.img-box-info').slideUp(400);
-  }
-  );
+  // $(".img-box").hover(function() { //mouse on
+  //   $(this).find('div.img-box-info').slideDown(300);
+  // }, 
+  // function() {  // mouse off 
+  //   $(this).find('div.img-box-info').slideUp(400);
+  // }
+  // );
+  
   // for mobile - same function on click
   $(".img-box").click(function(e){  //if statement for clicking
     e.preventDefault();
