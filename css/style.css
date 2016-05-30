@@ -741,6 +741,7 @@ footer {
     background-color: #F4F4F4;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center-bottom;
     font-size: 2em;
     padding-top: 2rem;
     width: 100%;
