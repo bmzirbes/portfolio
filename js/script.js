@@ -11,7 +11,7 @@ function clickBurger() {
   $("#meat2").addClass("meat-hover", 100).addClass("meat2-clicked", 100);
   $("#bottombun").addClass("bottom-hover", 100).addClass("bottom-clicked", 100);
   $(".link-text").show();
-  $("div.social").show();
+  $("div.social").show(100);
   $("div.burgermonochrome>.link-text>a").show(100);
   // $("#headerimage").show(200);
 }; //close clickBurger

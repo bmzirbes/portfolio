@@ -82,6 +82,8 @@ div.social {
   padding-top: 1.5em;
   padding-bottom: 0.5em;
   display: none;
+  -webkit-transition-delay: 0.4s; /* Safari */
+  transition-delay: 0.4s;
 }
 .nav>li>a.social {
   display:inline; 
@@ -412,8 +414,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-bottom-right-radius:10px;
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       opacity: 0.65;
     }
     #topbun-text {
@@ -425,8 +427,10 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      -webkit-transition-delay: 2s; /* Safari */
+  transition-delay: 2s;
     }
     #cheese {
       position: fixed;
@@ -436,8 +440,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       background:  hsl(0, 0%, 47%);
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
       opacity: 0.65;
     }
     #cheese-text {
@@ -448,8 +452,10 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      -webkit-transition-delay: 2s; /* Safari */
+  transition-delay: 2s;
     }
     #meat {
       position: fixed;
@@ -459,8 +465,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-radius: 40px;
       background:  hsl(0, 0%, 47%);
       cursor: pointer;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);  
       opacity: 0.65;
     }
     #meat-text {
@@ -471,8 +477,10 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+      -webkit-transition-delay: 2s; /* Safari */
+  transition-delay: 2s;
     }
     #cheese2 {
       position: fixed;
@@ -481,8 +489,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       top: 46px;
       background:  hsl(0, 0%, 47%);
       cursor: pointer;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       opacity: 0.65;
       margin-bottom: 0;
     }
@@ -494,8 +502,10 @@ div.link-text, div.burgermonochrome>.link-text>a {
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+       -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      -webkit-transition-delay: 2s; /* Safari */
+  transition-delay: 2s;
       margin-bottom: 0;
     }
     #meat2 {
@@ -507,8 +517,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-radius: 40px;
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+       -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       opacity: 0.65;
     }
     #meat2-text {
@@ -519,8 +529,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
       margin:0 auto;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
     }
     #bottombun {
       position: fixed;
@@ -534,8 +544,10 @@ div.link-text, div.burgermonochrome>.link-text>a {
       border-top-right-radius:10px;
       color: #fff;
       cursor: pointer;
-      -webkit-transition: background-color 0.3s ease-in-out;
-      transition: background-color 0.3s ease-in-out;
+      -webkit-transition-delay: 2s; /* Safari */
+  transition-delay: 2s;
+     -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       opacity: 0.65;
     }
     .top-hover {
@@ -610,8 +622,8 @@ div.link-text, div.burgermonochrome>.link-text>a {
 }
 .navbar-expand {
   min-height: 172px !important;
-  -webkit-transition: all 0.06s ease;
-  transition: all 0.06s ease;
+ -webkit-transition: all 0.06s ease-in-out;
+  transition: all 0.06s ease-in-out;
 }
 .monochrome {
   background: #000015 !important;
@@ -741,7 +753,7 @@ footer {
     background-color: #F4F4F4;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center-bottom;
+    background-position: center-bottom  ;
     font-size: 2em;
     padding-top: 2rem;
     width: 100%;
