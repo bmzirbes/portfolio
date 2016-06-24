@@ -94,8 +94,7 @@ $(function(){   //document ready
     if(boxClicked == false) {
       clickBox();
     } else {
-      unclickBox();
-    };
+      unclickBox     };
   });
 
 // prevent .img-box click event from firing when you click the .insideLink
