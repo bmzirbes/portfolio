@@ -31,19 +31,19 @@ function unClickBurger() {
 };
 
 function clickBox() {
-  boxClicked = true;
   $('div.img-box-info').slideDown(300);
+  boxClicked = true;
 };
 function unclickBox() {
-  boxClicked = false;
   $('div.img-box-info').slideUp(200);
+  boxClicked = false;
 };
 
 $(function(){   //document ready 
 
   $(".navbar-toggle").on("click", function () {
-            $(this).toggleClass("active");
-        });
+    $(this).toggleClass("active");
+  });
   $(".burgermonochrome").click(function(){  //if statement for clicking
     if(clicked == false) {
       clickBurger();
@@ -94,13 +94,14 @@ $(function(){   //document ready
     if(boxClicked == false) {
       clickBox();
     } else {
-      unclickBox     };
+      unclickBox();
+    };
   });
 
 // prevent .img-box click event from firing when you click the .insideLink
-  $(".insideLink").click(function(event) {
-    event.stopImmediatePropagation();
-  });
+$(".insideLink").click(function(event) {
+  event.stopImmediatePropagation();
+});
 
 
 }); //end document ready function
