@@ -17,7 +17,6 @@ function clickBurger() {
   $("#cheese2-text").removeClass("link-text").addClass("cheese2-text-expand", 100);
   $("div.social").fadeIn(1200);
   $("div.burgermonochrome>.link-text>a").show(100);
-  
 }; //close clickBurger
 
 function unClickBurger() {
