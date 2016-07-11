@@ -11,13 +11,21 @@ function clickBurger() {
   $("#meat2").addClass("meat-hover", 100).addClass("meat2-clicked", 100);
   $("#bottombun").addClass("bottom-hover", 100).addClass("bottom-clicked", 100);
   $(".link-text").show();
-  $("div.social").fadeIn(1500);
+  $("#topbun-text").removeClass("link-text").addClass("topbun-text-expand", 100);
+  $("#cheese-text").removeClass("link-text").addClass("cheese-text-expand", 100);
+  $("#meat-text").removeClass("link-text").addClass("meat-text-expand", 100);
+  $("#cheese2-text").removeClass("link-text").addClass("cheese2-text-expand", 100);
+  $("div.social").fadeIn(1200);
   $("div.burgermonochrome>.link-text>a").show(100);
   
 }; //close clickBurger
 
 function unClickBurger() {
   clicked = false;
+  $("#topbun-text").removeClass("topbun-text-expand").addClass("link-text");
+  $("#cheese-text").removeClass("cheese-text-expand").addClass("link-text");
+  $("#meat-text").removeClass("meat-text-expand").addClass("link-text");
+  $("#cheese2-text").removeClass("cheese2-text-expand").addClass("link-text");
   $(".link-text").hide();
   $("div.social").hide();
   $("#topbun").removeClass("top-clicked");
@@ -50,10 +58,9 @@ $(function(){   //document ready
     } else {
       unClickBurger();
     };
-
   });
 
-
+// hover event for highlighting burger menu
   $(".burgermonochrome, .burger, .link-text").hover(function() { //mouse on
     $("#topbun").addClass("top-hover", 200);
     $("#cheese, #cheese2").addClass("cheese-hover", 200);
@@ -68,26 +75,23 @@ $(function(){   //document ready
   }
   );
 
-  $("p, .navbar-expand, h1, .mainbody").click(function() { //collapse menu on click of other elements
-    $(".link-text").hide();
-    $("div.social").hide();
-    $("#topbun").removeClass("top-clicked");
-    $("#cheese").removeClass("cheese-clicked");
-    $("#meat").removeClass("meat-clicked");
-    $("#cheese2").removeClass("cheese2-clicked");
-    $("#meat2").removeClass("meat2-clicked");
-    $("#bottombun").removeClass("bottom-clicked");    
-    $("nav").removeClass("navbar-expand");
-  });
+//collapse menu on click of other elements
+$("p, .navbar-expand, h1, .mainbody").click(function() { 
+ $("#topbun-text").removeClass("topbun-text-expand").addClass("link-text");
+ $("#cheese-text").removeClass("cheese-text-expand").addClass("link-text");
+ $("#meat-text").removeClass("meat-text-expand").addClass("link-text");
+ $("#cheese2-text").removeClass("cheese2-text-expand").addClass("link-text");
+ $(".link-text").hide();
+ $("div.social").hide();
+ $("#topbun").removeClass("top-clicked");
+ $("#cheese").removeClass("cheese-clicked");
+ $("#meat").removeClass("meat-clicked");
+ $("#cheese2").removeClass("cheese2-clicked");
+ $("#meat2").removeClass("meat2-clicked");
+ $("#bottombun").removeClass("bottom-clicked");    
+ $("nav").removeClass("navbar-expand");
+});
 
-  // $(".img-box").hover(function() { //mouse on
-  //   $(this).find('div.img-box-info').slideDown(300);
-  // }, 
-  // function() {  // mouse off 
-  //   $(this).find('div.img-box-info').slideUp(400);
-  // }
-  // );
-  
   // for mobile - same function on click
   $(".img-box").click(function(e){  //if statement for clicking
     e.preventDefault();

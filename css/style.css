@@ -69,6 +69,8 @@ span.resume-subtitle {
 }
 #navbar {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 button.navbar-toggle:visited, button.navbar-toggle.collapsed:visited, #bs-example-navbar-collapse-1:visited {
   background-color: transparent;
@@ -77,13 +79,13 @@ button.navbar-toggle:visited, button.navbar-toggle.collapsed:visited, #bs-exampl
   min-height: 84.3px;
 }
 div.social {
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  /*-webkit-transition: all 0.2s ease;*/
+  /*transition: all 0.2s ease;*/
   padding-top: 1.5em;
   padding-bottom: 0.5em;
   display: none;
-  -webkit-transition-delay: 0.4s; /* Safari */
-  transition-delay: 0.4s;
+  /*-webkit-transition-delay: 0.4s; /* Safari */
+  /*transition-delay: 0.4s;*/
 }
 .nav>li>a.social {
   display:inline; 
@@ -425,16 +427,21 @@ div.link-text, div.burgermonochrome>.link-text>a {
       opacity: 0.65;
     }
     #topbun-text {
+      position: fixed;
+      top: 9.5px;
+      /*color: #D27B47 add when done testing*/
+    }
+    .topbun-text-expand {
       /*display:none;*/
       position: fixed;
       margin: 0 14px;
-      top: 33.5px; 
+      top: 33.5px !important; 
       color: #fff;
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
       -webkit-transition-delay: 2s; /* Safari */
   transition-delay: 2s;
     }
@@ -451,17 +458,26 @@ div.link-text, div.burgermonochrome>.link-text>a {
       opacity: 0.65;
     }
     #cheese-text {
+      position: fixed;
+      top: 9.5px;
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .cheese-text-expand {
       /*display:none;*/
       position: fixed;
-      top: 61.5px;
+      top: 61.5px !important;
       color: #fff;
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
-      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      -webkit-transition-delay: 2s; /* Safari */
-  transition-delay: 2s;
+  -webkit-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+  -webkit-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+      
     }
     #meat {
       position: fixed;
@@ -475,11 +491,18 @@ div.link-text, div.burgermonochrome>.link-text>a {
       transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);  
       opacity: 0.65;
     }
+
     #meat-text {
+      position: fixed;
+      top: 9.5px;
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .meat-text-expand {
       /*display:none;*/
       position: fixed;
       margin: 0 10px;
-      top: 97.75px;
+      top: 97.75px !important;
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
@@ -500,11 +523,11 @@ div.link-text, div.burgermonochrome>.link-text>a {
       opacity: 0.65;
       margin-bottom: 0;
     }
-    #cheese2-text {
+    .cheese2-text-expand {
       /*display:none;*/
       position: fixed;
       margin: 0 6px;
-      top: 130px;
+      top: 130px !important;
       text-align: center;
       cursor: pointer;
       opacity: 0.85;
@@ -527,10 +550,17 @@ div.link-text, div.burgermonochrome>.link-text>a {
       transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       opacity: 0.65;
     }
+
     #meat2-text {
+      position: fixed;
+      top: 9.5px;
+      -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .meat2-text-expand {
       /*display:none;*/
       position: fixed;
-      top: 166.5px;
+      top: 166.5px !important;
       color: #fff;
       margin:0 auto;
       cursor: pointer;
@@ -628,8 +658,10 @@ div.link-text, div.burgermonochrome>.link-text>a {
 }
 .navbar-expand {
   min-height: 172px !important;
- -webkit-transition: all 0.06s ease-in-out;
-  transition: all 0.06s ease-in-out;
+ -webkit-transition: all 0.06s ease-in-out !important;
+  transition: all 0.06s ease-in-out!important;
+     -webkit-transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 .monochrome {
   background: #000015 !important;
