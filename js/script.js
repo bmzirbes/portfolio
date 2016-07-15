@@ -95,9 +95,11 @@ $("p, .navbar-expand, h1, .mainbody").click(function() {
   $(".img-box").click(function(e){  //if statement for clicking
     e.preventDefault();
     if(boxClicked == false) {
-      clickBox();
+      $(this).find('div.img-box-info').slideDown(300);
+      boxClicked = true;
     } else {
-      unclickBox();
+      $(this).find('div.img-box-info').slideUp(200);
+      boxClicked = false;
     };
   });
 
